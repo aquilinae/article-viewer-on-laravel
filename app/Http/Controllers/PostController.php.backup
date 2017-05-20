@@ -42,23 +42,10 @@ class PostController extends Controller
     
     public function store(Post $postModel, Request $request)
     {
-        ////dd($request->all());
-        //$postModel->create($request->all());
-        //return redirect()->route('posts');
-        
-         $post= new Post; 
-         $post = $postModel->create($request->all()); 
-         
-         if($post->published == "on"){
-             $post->published = 1;
-         } 
-         else { 
-             $post->published = 0; 
-         } 
-         
-         $post->save();
-         
-         return redirect()->route('posts');
+        //
+        //dd($request->all());
+        $postModel->create($request->all());
+        return redirect()->route('posts');
     }
     
     public function show($id)
