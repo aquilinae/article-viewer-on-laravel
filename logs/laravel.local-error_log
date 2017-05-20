@@ -1,0 +1,3 @@
+[Sat May 20 17:05:38.715248 2017] [:error] [pid 4780:tid 1648] [client 127.0.0.1:53543] PHP Fatal error:  Call to undefined function get() in C:\\xampp\\htdocs\\laravel.local\\routes\\web.php on line 19
+[Sat May 20 17:12:38.125572 2017] [:error] [pid 4780:tid 1648] [client 127.0.0.1:53553] PHP Parse error:  syntax error, unexpected end of file in C:\\xampp\\htdocs\\laravel.local\\storage\\framework\\views\\ec807ee7c02dfb6777ea666e1a3f04856fbccea9.php on line 9
+[Sat May 20 20:55:00.710858 2017] [:error] [pid 4780:tid 1656] [client 127.0.0.1:55170] PHP Fatal error:  Call to undefined method Carbon\\Carbon::nov() in C:\\xampp\\htdocs\\laravel.local\\app\\Http\\Controllers\\PostController.php on line 21, referer: http://laravel.local/login
